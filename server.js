@@ -46,10 +46,9 @@ app.post('/api/notes', (req,res) => {
     res.json("Added item to task list")
 
   } else {
-    res.error("Could not add item to task list.")
+    res.json("Could not add item to task list.")
   }
 })
-
 
 app.listen(PORT, () =>
   console.log(`Example app listening at http://localhost:${PORT}`)
