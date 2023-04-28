@@ -23,6 +23,11 @@ npm install
 ## Usage
 To use the application, access the deployed page at (insert heroku link).
 
+## Deployed Page
+An image of the deployed page is shown below, with an example note pulled up to show the details of that note.
+
+<img src="./img_assets/deployedpage.png" alt = "An image of the note taker website, with an example note on screen"/>
+
 ## Testing
 N/A
 
